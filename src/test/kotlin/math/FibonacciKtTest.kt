@@ -8,5 +8,6 @@ internal class FibonacciKtTest {
         val input = 16
         val expectedFibResult = 987
         assert(fibRecursive(input) == expectedFibResult)
+        assert(fibIterative(input) == expectedFibResult)
     }
 }
